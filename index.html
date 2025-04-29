@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Психолог Ганна</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background: #fdfdfd;
+      color: #333;
+      line-height: 1.6;
+    }
+    header, section, footer {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    header {
+      background: #f0f4f8;
+      text-align: center;
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    nav {
+      background: #ffffff;
+      padding: 15px 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #2c3e50;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      padding: 20px;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      background: #2c3e50;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#about">Знайомство</a>
+    <a href="#services">Послуги</a>
+    <a href="#articles">Статті</a>
+    <a href="#offer">Оферта</a>
+    <a href="#certificates">Сертифікати</a>
+    <a href="#payment">Оплата</a>
+  </nav>
+
+  <header>
+    <h1>Психолог Ганна</h1>
+    <p>Підтримка, яка дає сили змінювати життя</p>
+  </header>
+
+  <section id="about">
+    <h2>Знайомство</h2>
+    <p>Мене звати Ганна, я практикуючий психолог із понад 10-річним досвідом особистої терапії. Працюю у напрямі транзакційного аналізу. Моя мета — допомогти вам краще розуміти себе, віднайти внутрішні опори та знайти шлях до зцілення.</p>
+  </section>
+
+  <section id="services">
+    <h2>Послуги</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Індивідуальна терапія</h3>
+        <p>Сесії онлайн або офлайн, 50 хвилин, конфіденційно.</p>
+      </div>
+      <div class="card">
+        <h3>Психопросвіта</h3>
+        <p>Онлайн-курси, лекції та вебінари для дорослих і підлітків.</p>
+      </div>
+      <div class="card">
+        <h3>Супровід у складних етапах життя</h3>
+        <p>Підтримка у періоди втрати, змін, вигорання.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="articles">
+    <h2>Цікаві статті</h2>
+    <p>Невдовзі тут з'являться публікації про саморегуляцію, емоційний інтелект, тілесність і психологічну грамотність.</p>
+  </section>
+
+  <section id="offer">
+    <h2>Договір оферти</h2>
+    <p>Ознайомтесь із <a href="#">публічним договором</a> про надання психологічних послуг (PDF).</p>
+  </section>
+
+  <section id="certificates">
+    <h2>Сертифікати та дипломи</h2>
+    <p>Наявні документи підтверджують мою освіту та проходження курсів. Додам їх у вигляді галереї (за бажанням).</p>
+  </section>
+
+  <section id="payment">
+    <h2>Оплата</h2>
+    <p>Оплата можлива за допомогою LiqPay, WayForPay або банківського переказу. Для активації кнопки «Оплатити» зверніться до мене за консультацією.</p>
+    <a href="#" class="button">Оплатити сесію</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Психолог Ганна. Всі права захищено.</p>
+  </footer>
+</body>
+</html>
